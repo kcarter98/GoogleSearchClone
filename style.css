@@ -27,8 +27,9 @@ input {
     border-radius: 30px;
     padding: 12px;
     border: lightgray 1px solid;
+    padding-left: 20px;
 }
-input:hover {
+input:hover, input:focus {
     outline: none;
     box-shadow: 0 0 8px lightgray;
 }
